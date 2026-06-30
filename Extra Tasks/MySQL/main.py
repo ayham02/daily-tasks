@@ -11,6 +11,7 @@ class StudentCreate(BaseModel):
     email: EmailStr
     course: str
     phone: str
+    
 
 
 class StudentUpdate(BaseModel):
